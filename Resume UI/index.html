@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Resume UI</title>
+</head>
+<body>
+    <!-- Giving two grid class to the main -->
+    <main class="grid-container">
+        <!-- Starting the left side grid -->
+        <article class="left-side grid-items">
+            <!-- left intro of the page -->
+            <section class="intro">
+                <img class="my-image" src="WhatsApp Image 2023-03-04 at 6.46.51 PM.jpeg" alt="my-photo">
+                <h1 id="name">MD <br> ZULQARNAIN</h1>
+                <P>Web developer</P>
+                <div class="link">
+                    <a href="https://github.com/zulqar19"><span class="fa-brands fa-github"></span> GitHub</a>
+                    <a href="https://www.linkedin.com/in/zulqarnain-ansari-0ba82920b/"><span class="fa-brands fa-linkedin-in"></span>Linkedin</a>
+                </div>
+            </section>
+            <!-- Details containing the contact, Education and Language -->
+            <!-- Start of the contact details -->
+            <section class="contact-details details">
+                <div class="sub-heading">
+                    <h3><span class="fa-solid fa-user"></span><span class="padding-left">CONTACT</span></h3>
+                </div>
+                <hr>
+                <div class="sub-details">
+                    <p class="fa-sharp fa-solid fa-phone-volume"><span class="padding-left"><b>Phone</b><br><p class="padding-left-content"> +91-7003-241-254 </p></span></p>
+                </div>
+                <div class="sub-details">
+                    <p class="fa-sharp fa-solid fa-envelope-open-text"><span class="padding-left"><b>Email</b><br><p class="padding-left-content"> ansarizulqar.io111@gmail.com</p></span></p>
+                </div>
+                <div class="sub-details">
+                    <p class="fa-solid fa-house"><span class="padding-left"><b>Address</b><br><p class="padding-left-content"> 28/4 Satkori Chatterjee<br> Lane Howrah-711101</p> </span></p>
+                </div>
+            </section>
+            <!-- Start of the education details -->
+            <section class="education details">
+                <div class="sub-heading">
+                    <h3><span class="fa-solid fa-book-open"></span><span class="padding-left">EDUCATION</span></h3>
+                </div>
+                <hr>
+                <div class="sub-details">
+                    <p class="fa-regular fa-clock"><span class="padding-left"><b>2018</b><br><h4 class="padding-left-content color">Higher Secondry Passed <p class="color2"> Maria's Day School </p></h4></span></p>
+                </div>
+                <div class="sub-details">
+                    <p class="fa-regular fa-clock"><span class="padding-left"><b>2023 - running</b><br><h4 class="padding-left-content color">B.Com (1st year)<p class="color2">IGNOU</p></h4></span></p>
+                </div>
+            </section>
+            <!-- Start of the language details -->
+            <section class="language details">
+                <div class="sub-heading">
+                    <h3><span class="fa-solid fa-earth-americas"></span><span class="padding-left">LANGUAGE</span></h3>
+                </div>
+                <hr>
+                <ul>
+                    <li>English <span class="prog"><progress id="file" value="85" max="100" > 85% </progress></span></li>
+                    <li>Hindi <span class="prog extra" ><progress id="file" value="85" max="100"> 85% </progress></span></li>
+                    <li>Bengali <span class="prog"><progress id="file" value="50" max="100"> 50% </progress></span></li>
+                </ul>
+            </section>
+        </article>
+        <!-- Starting the right side grid -->
+        <article class="right-side grid-items">
+            <!-- Profile info-details -->
+                <section class="profile-info right-details">
+                    <div class="sub-heading">
+                        <h3><span class="fa-solid fa-user"></span><span class="padding-left">PROFILE INFO</span></h3>
+                    <hr>
+                    <p class="profile-info-details size color2">I am a talented, ambitious and hardworking individual, willing to learn new skills and gain experience.</p>
+                    </div>
+                </section>
+                <!-- Work experience section -->
+                <section class="work-experience right-details">
+                    <div class="sub-heading">
+                        <h3><span class="fa-solid fa-briefcase"></span><span class="padding-left">WORK EXPERIENCE</span></h3>
+                    <hr>
+                    </div>
+                    <h3><span class="fa-regular fa-clock"></span><span class="job-details padding-left">Junior Accountant</span><span class="job-year">2020-2022</span></h3>
+                        <p class="description size">Worked in a Bearing Company for 2 years as a Junior Accountant managing their Bank Accounts and Vouchers and client handling on Email, Working in Tally, Excel</p> 
+                    <h3><span class="fa-regular fa-clock"></span><span class="job-details padding-left">Data Entry</span><span class="job-year">2018-2020</span></h3>
+                    <p class="description size">Worked in a Medical store as a Data Entry(Purchase), Working in Unisolve Software</p>
+                </section>
+                <!-- Skill section -->
+                <section class="skill-&-expertise right-details">
+                    <div class="sub-heading">
+                        <h3><span class="fa-solid fa-vial"></span><span class="padding-left">MY SKILLS & EXPERTISE</span></h3>
+                        <hr>
+                    </div>
+                    <div class="grid">
+                        <div class="skill-grid">
+                            <p class="skills color2" >HTML<br><span  class="prog-color"><progress class="prog-color" value="80" max="100">80%</progress></span></p>
+                            <p class="skills color2">CSS<br><progress value="70" max="100">60%</progress></p>
+                            <p class="skills color2">JAVASCRIPT<br><progress value="60" max="100">60%</progress></p>
+                        </div>
+                        <div class="skill-grid">
+                            <p class="skills color2">GIT<br><progress value="60" max="100">60%</progress></p>
+                            <p class="skills color2">EXCEL<br><progress value="70" max="100">70%</progress></p>
+                        </div>
+                    </div>
+                </section>
+                <!-- Hobby section -->
+                <section class="my-hobby right-details">
+                    <div class="sub-heading">
+                        <h3><span class="fa-solid fa-otter"></span><span class="padding-left">MY HOBBY</span></h3>
+                        <hr>
+                    </div>
+                    <!-- Flexing the hobbies -->
+                    <ul class="flex">
+                        <p class="hobby"><span class="fa-solid fa-baseball"></span><span class="padding-left"> Playing Cricket </span></p>
+                        <p class="hobby"><span class="fa-solid fa-book-quran"></span><span class="padding-left"> Reading & Memorizing Quran </span></p>
+                    </ul>
+                </section>
+        </article>
+    </main>
+
+
+</body>
+</html>
+<!-- questions 
+1) How to change the color of progress bar
+2) What to write in My reference
+-->
